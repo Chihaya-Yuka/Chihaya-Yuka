@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今天千早千叶打赢复活赛了吗？</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+
+        .countdown-box {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        #countdown {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+        }
+
+        #note {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="countdown-box">
+        <div id="countdown"></div>
+        <div id="note">距离 Huanyu Stream 还有 <span id="days"></span> 天。</div>
+    </div>
+
+    <script>
+        // 设置开始日期和总天数
+        const startDate = new Date("2024-08-13");
+        const totalDays = 2190;
+
+        // 计算剩余时间
+        function calculateTimeRemaining() {
+            const currentDate = new Date();
+            const timeDiff = currentDate - startDate;
+            const daysPassed = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+            const daysRemaining = totalDays - daysPassed;
+
+            const timeRemaining = (totalDays * 24 * 60 * 60 * 1000) - timeDiff;
+            const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            return { daysRemaining, hours, minutes, seconds };
+        }
+
+        // 更新倒计时
+        function updateCountdown() {
+            const { daysRemaining, hours, minutes, seconds } = calculateTimeRemaining();
+            document.getElementById('countdown').innerText = `${daysRemaining} 天 ${hours} 小时 ${minutes} 分 ${seconds} 秒`;
+            document.getElementById('days').innerText = daysRemaining;
+        }
+
+        // 每秒更新倒计时
+        setInterval(updateCountdown, 1000);
+
+        // 初始化页面时更新倒计时
+        updateCountdown();
+    </script>
+</body>
+</html>
