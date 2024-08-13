@@ -18,6 +18,8 @@
 - 📄 Know about my experiences [https://awaland.xyz/](https://awaland.xyz/)
 
 - ⚡ Fun fact **I have a history of mental illness**
+  
+- 🤔 Count down [Click me](countdown.html)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
