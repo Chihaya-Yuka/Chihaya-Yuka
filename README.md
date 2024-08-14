@@ -19,7 +19,7 @@
 
 - ⚡ Fun fact **I have a history of mental illness**
   
-- 🤔 Count down [Click me](countdown.html)
+- 🤔 Count down [Click me](https://chihaya-yuka.github.io/Chihaya-Yuka/countdown.html)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chihaya-Yuka)
 
