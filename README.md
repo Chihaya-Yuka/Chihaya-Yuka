@@ -13,7 +13,7 @@
 
 - 💬 Ask me about **Computer Science, C/C++, Haskell, Rust, Python, Vue, JavaScript etc.**
 
-- 📫 How to reach me **admin@awaldnx.yz**
+- 📫 How to reach me **admin@awaland.xyz**
 
 - 📄 Know about my experiences [https://awaland.xyz/](https://awaland.xyz/)
 
