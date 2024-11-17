@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Chihaya-Yuka</h1>
 <h3 align="center">A full stack engineer from China</h3>
 
-- 🔭 I’m currently working on [OpenCopilot](https://github.com/Chihaya-Yuka/OpenCopilot)
+- 🔭 I’m currently working on Orange-3
 
 - 🌱 I’m currently learning **Computer Network**
 
-- 👯 I’m looking to collaborate on **[CSTL](https://github.com/Chihaya-Yuka/CSTL)**
-
 - 👨‍💻 All of my projects are available at [https://github.com/Chihaya-Yuka](https://github.com/Chihaya-Yuka)
+
+- 🎶 My favourite music [YOASOBI「群青」Official Music Video](https://www.youtube.com/watch?v=Y4nEEZwckuU)
 
 - 📝 I regularly write articles on [https://awaland.xyz/](https://awaland.xyz/)
 
