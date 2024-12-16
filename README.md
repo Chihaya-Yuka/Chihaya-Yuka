@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Chihaya-Yuka</h1>
 <h3 align="center">A full stack engineer from China</h3>
 
-- 🔭 I’m currently working on Orange-3
+- 🔭 I’m currently working on Data Dream Project.
 
 - 🌱 I’m currently learning **Computer Network**
 
@@ -9,13 +9,13 @@
 
 - 🎶 My favourite music [YOASOBI「群青」Official Music Video](https://www.youtube.com/watch?v=Y4nEEZwckuU)
 
-- 📝 I regularly write articles on [https://awaland.xyz/](https://awaland.xyz/)
+- 📝 I regularly write articles on [https://yuka.living](https://yuka.living)
 
 - 💬 Ask me about **Computer Science, C/C++, Haskell, Rust, Python, Vue, JavaScript etc.**
 
-- 📫 How to reach me **admin@awaland.xyz**
+- 📫 How to reach me **me@yuka.living**
 
-- 📄 Know about my experiences [https://awaland.xyz/](https://awaland.xyz/)
+- 📄 Know about my experiences [https://paper.yuka.living/](https://paper.yuka.living/)
 
 - ⚡ Fun fact **I have a history of mental illness**
   
